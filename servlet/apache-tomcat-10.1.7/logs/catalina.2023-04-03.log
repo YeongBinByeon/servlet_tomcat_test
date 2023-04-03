@@ -1,0 +1,160 @@
+03-Apr-2023 22:59:36.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.7
+03-Apr-2023 22:59:36.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Feb 27 2023 20:25:27 UTC
+03-Apr-2023 22:59:36.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.7.0
+03-Apr-2023 22:59:36.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+03-Apr-2023 22:59:36.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+03-Apr-2023 22:59:36.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+03-Apr-2023 22:59:36.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-11.0.10
+03-Apr-2023 22:59:36.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          11.0.10+8-LTS-162
+03-Apr-2023 22:59:36.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+03-Apr-2023 22:59:36.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\code_folder\servlet\apache-tomcat-10.1.7
+03-Apr-2023 22:59:36.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\code_folder\servlet\apache-tomcat-10.1.7
+03-Apr-2023 22:59:36.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\code_folder\servlet\apache-tomcat-10.1.7\conf\logging.properties
+03-Apr-2023 22:59:36.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Apr-2023 22:59:36.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+03-Apr-2023 22:59:36.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Apr-2023 22:59:36.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Apr-2023 22:59:36.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+03-Apr-2023 22:59:36.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+03-Apr-2023 22:59:36.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Apr-2023 22:59:36.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Apr-2023 22:59:36.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\code_folder\servlet\apache-tomcat-10.1.7
+03-Apr-2023 22:59:36.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\code_folder\servlet\apache-tomcat-10.1.7
+03-Apr-2023 22:59:36.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\code_folder\servlet\apache-tomcat-10.1.7\temp
+03-Apr-2023 22:59:36.794 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Program Files\Java\jdk-11.0.10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oracle\dbhomeXE\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\Anaconda3\;C:\ProgramData\Anaconda3\Scripts\;C:\ProgramData\Anaconda3\Library\bin\;C:\Program Files\nodejs\;C:\other_program\ffmpeg-4.2.2-win64-static\ffmpeg-4.2.2-win64-static\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\code_folder\natural_language_processing\3-nlp_basics\04-word_embedding\13-word_embedding\Release;C:\HashiCorp\Vagrant\bin;C:\tools\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-11.0.10\bin\;C:\Program Files (x86)\Streamlink\bin;C:\Program Files\PuTTY\;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Git\cmd;C:\Program Files\Erlang OTP;C:\Program Files\RabbitMQ Server\rabbitmq_server-3.10.2\sbin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\maria\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\code_folder\multi-speaker-tacotron-tensorflow\google-cloud-sdk-280.0.0-windows-x86_64\google-cloud-sdk\bin;C:\Users\dudql\AppData\Local\Microsoft\WindowsApps;C:\ProgramData\Anaconda3\;C:\ProgramData\Anaconda3\Scripts\;C:\Users\dudql\AppData\Roaming\npm;C:\other_program\ffmpeg-4.2.2-win64-static\mp4box;C:\Users\dudql\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\bin;;.]
+03-Apr-2023 22:59:36.994 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+03-Apr-2023 22:59:37.020 INFO [main] org.apache.catalina.startup.Catalina.load [478] 밀리초 내에 서버가 초기화되었습니다.
+03-Apr-2023 22:59:37.077 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+03-Apr-2023 22:59:37.079 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.7]
+03-Apr-2023 22:59:37.094 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\code_folder\servlet\apache-tomcat-10.1.7\webapps\docs]을(를) 배치합니다.
+03-Apr-2023 22:59:38.055 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] 알고리즘을 사용하여, 세션 ID를 생성하기 위한 SecureRandom 객체를 생성하는데, [696] 밀리초가 소요됐습니다.
+03-Apr-2023 22:59:38.085 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\code_folder\servlet\apache-tomcat-10.1.7\webapps\docs]에 대한 배치가 [992] 밀리초에 완료되었습니다.
+03-Apr-2023 22:59:38.087 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\code_folder\servlet\apache-tomcat-10.1.7\webapps\examples]을(를) 배치합니다.
+03-Apr-2023 22:59:38.500 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\code_folder\servlet\apache-tomcat-10.1.7\webapps\examples]에 대한 배치가 [413] 밀리초에 완료되었습니다.
+03-Apr-2023 22:59:38.501 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\code_folder\servlet\apache-tomcat-10.1.7\webapps\host-manager]을(를) 배치합니다.
+03-Apr-2023 22:59:38.537 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\code_folder\servlet\apache-tomcat-10.1.7\webapps\host-manager]에 대한 배치가 [36] 밀리초에 완료되었습니다.
+03-Apr-2023 22:59:38.539 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\code_folder\servlet\apache-tomcat-10.1.7\webapps\manager]을(를) 배치합니다.
+03-Apr-2023 22:59:38.572 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\code_folder\servlet\apache-tomcat-10.1.7\webapps\manager]에 대한 배치가 [33] 밀리초에 완료되었습니다.
+03-Apr-2023 22:59:38.573 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\code_folder\servlet\apache-tomcat-10.1.7\webapps\ROOT]을(를) 배치합니다.
+03-Apr-2023 22:59:38.599 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\code_folder\servlet\apache-tomcat-10.1.7\webapps\ROOT]에 대한 배치가 [25] 밀리초에 완료되었습니다.
+03-Apr-2023 22:59:38.602 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+03-Apr-2023 22:59:39.331 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [2310] 밀리초 내에 시작되었습니다.
+03-Apr-2023 22:59:44.680 INFO [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+03-Apr-2023 22:59:44.688 INFO [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+03-Apr-2023 22:59:45.383 INFO [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+03-Apr-2023 22:59:45.400 INFO [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+03-Apr-2023 22:59:45.416 INFO [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+03-Apr-2023 22:59:59.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.7
+03-Apr-2023 22:59:59.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Feb 27 2023 20:25:27 UTC
+03-Apr-2023 22:59:59.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.7.0
+03-Apr-2023 22:59:59.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+03-Apr-2023 22:59:59.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+03-Apr-2023 22:59:59.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+03-Apr-2023 22:59:59.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-11.0.10
+03-Apr-2023 22:59:59.937 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          11.0.10+8-LTS-162
+03-Apr-2023 22:59:59.937 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+03-Apr-2023 22:59:59.937 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\code_folder\servlet\apache-tomcat-10.1.7
+03-Apr-2023 22:59:59.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\code_folder\servlet\apache-tomcat-10.1.7
+03-Apr-2023 22:59:59.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\code_folder\servlet\apache-tomcat-10.1.7\conf\logging.properties
+03-Apr-2023 22:59:59.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Apr-2023 22:59:59.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+03-Apr-2023 22:59:59.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Apr-2023 22:59:59.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Apr-2023 22:59:59.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+03-Apr-2023 22:59:59.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+03-Apr-2023 22:59:59.967 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Apr-2023 22:59:59.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Apr-2023 22:59:59.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\code_folder\servlet\apache-tomcat-10.1.7
+03-Apr-2023 22:59:59.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\code_folder\servlet\apache-tomcat-10.1.7
+03-Apr-2023 22:59:59.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\code_folder\servlet\apache-tomcat-10.1.7\temp
+03-Apr-2023 23:00:00.007 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Program Files\Java\jdk-11.0.10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oracle\dbhomeXE\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\Anaconda3\;C:\ProgramData\Anaconda3\Scripts\;C:\ProgramData\Anaconda3\Library\bin\;C:\Program Files\nodejs\;C:\other_program\ffmpeg-4.2.2-win64-static\ffmpeg-4.2.2-win64-static\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\code_folder\natural_language_processing\3-nlp_basics\04-word_embedding\13-word_embedding\Release;C:\HashiCorp\Vagrant\bin;C:\tools\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-11.0.10\bin\;C:\Program Files (x86)\Streamlink\bin;C:\Program Files\PuTTY\;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Git\cmd;C:\Program Files\Erlang OTP;C:\Program Files\RabbitMQ Server\rabbitmq_server-3.10.2\sbin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\maria\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\code_folder\multi-speaker-tacotron-tensorflow\google-cloud-sdk-280.0.0-windows-x86_64\google-cloud-sdk\bin;C:\Users\dudql\AppData\Local\Microsoft\WindowsApps;C:\ProgramData\Anaconda3\;C:\ProgramData\Anaconda3\Scripts\;C:\Users\dudql\AppData\Roaming\npm;C:\other_program\ffmpeg-4.2.2-win64-static\mp4box;C:\Users\dudql\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\bin;;.]
+03-Apr-2023 23:00:00.214 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+03-Apr-2023 23:00:00.238 INFO [main] org.apache.catalina.startup.Catalina.load [492] 밀리초 내에 서버가 초기화되었습니다.
+03-Apr-2023 23:00:00.273 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+03-Apr-2023 23:00:00.275 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.7]
+03-Apr-2023 23:00:00.288 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\code_folder\servlet\apache-tomcat-10.1.7\webapps\docs]을(를) 배치합니다.
+03-Apr-2023 23:00:01.303 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] 알고리즘을 사용하여, 세션 ID를 생성하기 위한 SecureRandom 객체를 생성하는데, [729] 밀리초가 소요됐습니다.
+03-Apr-2023 23:00:01.332 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\code_folder\servlet\apache-tomcat-10.1.7\webapps\docs]에 대한 배치가 [1,044] 밀리초에 완료되었습니다.
+03-Apr-2023 23:00:01.334 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\code_folder\servlet\apache-tomcat-10.1.7\webapps\examples]을(를) 배치합니다.
+03-Apr-2023 23:00:01.741 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\code_folder\servlet\apache-tomcat-10.1.7\webapps\examples]에 대한 배치가 [407] 밀리초에 완료되었습니다.
+03-Apr-2023 23:00:01.743 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\code_folder\servlet\apache-tomcat-10.1.7\webapps\host-manager]을(를) 배치합니다.
+03-Apr-2023 23:00:01.780 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\code_folder\servlet\apache-tomcat-10.1.7\webapps\host-manager]에 대한 배치가 [37] 밀리초에 완료되었습니다.
+03-Apr-2023 23:00:01.782 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\code_folder\servlet\apache-tomcat-10.1.7\webapps\manager]을(를) 배치합니다.
+03-Apr-2023 23:00:01.815 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\code_folder\servlet\apache-tomcat-10.1.7\webapps\manager]에 대한 배치가 [33] 밀리초에 완료되었습니다.
+03-Apr-2023 23:00:01.817 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\code_folder\servlet\apache-tomcat-10.1.7\webapps\ROOT]을(를) 배치합니다.
+03-Apr-2023 23:00:01.843 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\code_folder\servlet\apache-tomcat-10.1.7\webapps\ROOT]에 대한 배치가 [26] 밀리초에 완료되었습니다.
+03-Apr-2023 23:00:01.848 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+03-Apr-2023 23:00:02.559 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [2320] 밀리초 내에 시작되었습니다.
+03-Apr-2023 23:01:32.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.7
+03-Apr-2023 23:01:32.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Feb 27 2023 20:25:27 UTC
+03-Apr-2023 23:01:32.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.7.0
+03-Apr-2023 23:01:32.247 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+03-Apr-2023 23:01:32.247 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+03-Apr-2023 23:01:32.247 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+03-Apr-2023 23:01:32.247 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-11.0.10
+03-Apr-2023 23:01:32.248 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          11.0.10+8-LTS-162
+03-Apr-2023 23:01:32.248 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+03-Apr-2023 23:01:32.248 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\code_folder\servlet\apache-tomcat-10.1.7
+03-Apr-2023 23:01:32.248 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\code_folder\servlet\apache-tomcat-10.1.7
+03-Apr-2023 23:01:32.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\code_folder\servlet\apache-tomcat-10.1.7\conf\logging.properties
+03-Apr-2023 23:01:32.258 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Apr-2023 23:01:32.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+03-Apr-2023 23:01:32.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Apr-2023 23:01:32.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Apr-2023 23:01:32.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+03-Apr-2023 23:01:32.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+03-Apr-2023 23:01:32.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Apr-2023 23:01:32.265 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Apr-2023 23:01:32.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\code_folder\servlet\apache-tomcat-10.1.7
+03-Apr-2023 23:01:32.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\code_folder\servlet\apache-tomcat-10.1.7
+03-Apr-2023 23:01:32.269 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\code_folder\servlet\apache-tomcat-10.1.7\temp
+03-Apr-2023 23:01:32.300 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Program Files\Java\jdk-11.0.10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oracle\dbhomeXE\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\Anaconda3\;C:\ProgramData\Anaconda3\Scripts\;C:\ProgramData\Anaconda3\Library\bin\;C:\Program Files\nodejs\;C:\other_program\ffmpeg-4.2.2-win64-static\ffmpeg-4.2.2-win64-static\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\code_folder\natural_language_processing\3-nlp_basics\04-word_embedding\13-word_embedding\Release;C:\HashiCorp\Vagrant\bin;C:\tools\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-11.0.10\bin\;C:\Program Files (x86)\Streamlink\bin;C:\Program Files\PuTTY\;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Git\cmd;C:\Program Files\Erlang OTP;C:\Program Files\RabbitMQ Server\rabbitmq_server-3.10.2\sbin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\maria\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\code_folder\multi-speaker-tacotron-tensorflow\google-cloud-sdk-280.0.0-windows-x86_64\google-cloud-sdk\bin;C:\Users\dudql\AppData\Local\Microsoft\WindowsApps;C:\ProgramData\Anaconda3\;C:\ProgramData\Anaconda3\Scripts\;C:\Users\dudql\AppData\Roaming\npm;C:\other_program\ffmpeg-4.2.2-win64-static\mp4box;C:\Users\dudql\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\bin;;.]
+03-Apr-2023 23:01:32.494 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+03-Apr-2023 23:01:32.517 INFO [main] org.apache.catalina.startup.Catalina.load [463] 밀리초 내에 서버가 초기화되었습니다.
+03-Apr-2023 23:01:32.552 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+03-Apr-2023 23:01:32.554 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.7]
+03-Apr-2023 23:01:32.579 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [C:\code_folder\servlet\apache-tomcat-10.1.7\webapps\demo-0.0.1-SNAPSHOT.war]을(를) 배치합니다.
+03-Apr-2023 23:01:32.913 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+03-Apr-2023 23:01:33.654 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] 알고리즘을 사용하여, 세션 ID를 생성하기 위한 SecureRandom 객체를 생성하는데, [713] 밀리초가 소요됐습니다.
+03-Apr-2023 23:01:33.686 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [C:\code_folder\servlet\apache-tomcat-10.1.7\webapps\demo-0.0.1-SNAPSHOT.war]의 배치가 [1,108] 밀리초에 완료되었습니다.
+03-Apr-2023 23:01:33.692 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+03-Apr-2023 23:01:34.415 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [1897] 밀리초 내에 시작되었습니다.
+03-Apr-2023 23:02:34.361 INFO [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+03-Apr-2023 23:02:34.363 INFO [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+03-Apr-2023 23:02:35.066 INFO [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+03-Apr-2023 23:02:35.076 INFO [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+03-Apr-2023 23:02:35.095 INFO [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+03-Apr-2023 23:03:13.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.7
+03-Apr-2023 23:03:13.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Feb 27 2023 20:25:27 UTC
+03-Apr-2023 23:03:13.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.7.0
+03-Apr-2023 23:03:13.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+03-Apr-2023 23:03:13.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+03-Apr-2023 23:03:13.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+03-Apr-2023 23:03:13.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-11.0.10
+03-Apr-2023 23:03:13.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          11.0.10+8-LTS-162
+03-Apr-2023 23:03:13.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+03-Apr-2023 23:03:13.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\code_folder\servlet\apache-tomcat-10.1.7
+03-Apr-2023 23:03:13.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\code_folder\servlet\apache-tomcat-10.1.7
+03-Apr-2023 23:03:13.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\code_folder\servlet\apache-tomcat-10.1.7\conf\logging.properties
+03-Apr-2023 23:03:13.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Apr-2023 23:03:13.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+03-Apr-2023 23:03:13.461 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Apr-2023 23:03:13.462 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Apr-2023 23:03:13.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+03-Apr-2023 23:03:13.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+03-Apr-2023 23:03:13.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Apr-2023 23:03:13.466 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Apr-2023 23:03:13.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\code_folder\servlet\apache-tomcat-10.1.7
+03-Apr-2023 23:03:13.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\code_folder\servlet\apache-tomcat-10.1.7
+03-Apr-2023 23:03:13.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\code_folder\servlet\apache-tomcat-10.1.7\temp
+03-Apr-2023 23:03:13.498 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Program Files\Java\jdk-11.0.10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oracle\dbhomeXE\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\Anaconda3\;C:\ProgramData\Anaconda3\Scripts\;C:\ProgramData\Anaconda3\Library\bin\;C:\Program Files\nodejs\;C:\other_program\ffmpeg-4.2.2-win64-static\ffmpeg-4.2.2-win64-static\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\code_folder\natural_language_processing\3-nlp_basics\04-word_embedding\13-word_embedding\Release;C:\HashiCorp\Vagrant\bin;C:\tools\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-11.0.10\bin\;C:\Program Files (x86)\Streamlink\bin;C:\Program Files\PuTTY\;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Git\cmd;C:\Program Files\Erlang OTP;C:\Program Files\RabbitMQ Server\rabbitmq_server-3.10.2\sbin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\maria\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\code_folder\multi-speaker-tacotron-tensorflow\google-cloud-sdk-280.0.0-windows-x86_64\google-cloud-sdk\bin;C:\Users\dudql\AppData\Local\Microsoft\WindowsApps;C:\ProgramData\Anaconda3\;C:\ProgramData\Anaconda3\Scripts\;C:\Users\dudql\AppData\Roaming\npm;C:\other_program\ffmpeg-4.2.2-win64-static\mp4box;C:\Users\dudql\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\bin;;.]
+03-Apr-2023 23:03:13.690 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+03-Apr-2023 23:03:13.713 INFO [main] org.apache.catalina.startup.Catalina.load [448] 밀리초 내에 서버가 초기화되었습니다.
+03-Apr-2023 23:03:13.748 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+03-Apr-2023 23:03:13.750 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.7]
+03-Apr-2023 23:03:13.776 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [C:\code_folder\servlet\apache-tomcat-10.1.7\webapps\ROOT.war]을(를) 배치합니다.
+03-Apr-2023 23:03:14.087 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+03-Apr-2023 23:03:14.825 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] 알고리즘을 사용하여, 세션 ID를 생성하기 위한 SecureRandom 객체를 생성하는데, [713] 밀리초가 소요됐습니다.
+03-Apr-2023 23:03:14.851 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [C:\code_folder\servlet\apache-tomcat-10.1.7\webapps\ROOT.war]의 배치가 [1,075] 밀리초에 완료되었습니다.
+03-Apr-2023 23:03:14.857 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+03-Apr-2023 23:03:15.615 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [1902] 밀리초 내에 시작되었습니다.
